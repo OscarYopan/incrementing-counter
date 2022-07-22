@@ -42,7 +42,7 @@ body{
 
 .counter {
   font-size: 6rem;
-  margin-top: 1rem auto;
+  margin: 3rem auto;
 }
 
 span {
@@ -56,5 +56,9 @@ span {
 @media (max-width: 768px) {
   body {
     flex-direction: column;
-  }  
+  }
+
+  .counter {
+    margin: 1rem auto;
+  }
 }
