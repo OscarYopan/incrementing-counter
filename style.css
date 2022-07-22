@@ -1,0 +1,60 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Default*/
+:root {
+  --cor1: #7139BF;
+  --cor2: #5518D9;
+  --cor3: #271959;
+  --cor4: #F2E205;
+  --cor5: #F2C53D;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--cor1);
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 5rem;
+}
+
+.counter {
+  font-size: 6rem;
+  margin-top: 1rem auto;
+}
+
+span {
+  font-size: 1.6rem;
+}
+
+.counter-container i {
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }  
+}
