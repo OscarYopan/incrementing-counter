@@ -1,19 +1,12 @@
-/*Reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*Default*/
 :root {
   --cor1: #7139BF;
-  --cor2: #5518D9;
-  --cor3: #271959;
-  --cor4: #F2E205;
-  --cor5: #F2C53D;
   --white: #ffffff;
-  --black: #000000;
 }
 
 html{
